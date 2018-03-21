@@ -74,8 +74,8 @@ public class RestService {
 		props.put("mail.debug", "true");
 		props.put("mail.transport.protocol", "smtp");
 		props.put("mail.smtp.starttls.enable", "true");
-		props.put("mail.smtp.login.id", "krohit");
-		props.put("mail.smtp.login.password", "qwertyuiop@123");
+		props.put("mail.smtp.login.id", "");//send grid username
+		props.put("mail.smtp.login.password", ""); //sendgrid password
 		props.put("mail.smtp.ssl.trust", "*");
 
 		try {
